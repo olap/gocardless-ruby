@@ -3,7 +3,7 @@ source :rubygems
 gemspec
 
 group :development do
-  gem "guard", "~> 0.8.8"
+  gem "guard"
   if RUBY_PLATFORM.downcase.include?("darwin")
     gem "guard-rspec", "~> 0.5.4"
     gem "rb-fsevent", "~> 0.9"

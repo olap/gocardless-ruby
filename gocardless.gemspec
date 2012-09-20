@@ -1,13 +1,13 @@
 require File.expand_path('../lib/gocardless/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.add_runtime_dependency 'oauth2', '~> 0.7.1'
-  gem.add_runtime_dependency 'multi_json', '~> 1.0'
+  gem.add_runtime_dependency 'oauth2'
+  gem.add_runtime_dependency 'multi_json'
 
-  gem.add_development_dependency 'rspec', '~> 2.6'
-  gem.add_development_dependency 'mocha', '~> 0.9.12'
-  gem.add_development_dependency 'yard', '~> 0.7.3'
-  gem.add_development_dependency 'activesupport', '~> 3.1'
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'mocha'
+  gem.add_development_dependency 'yard'
+  gem.add_development_dependency 'activesupport'
 
   gem.authors = ['Harry Marr', 'Tom Blomfield']
   gem.description = %q{A Ruby wrapper for the GoCardless API}
